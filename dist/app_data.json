@@ -1,6 +1,129 @@
 {
-  "history": [],
+  "history": [
+    {
+      "method": "GET",
+      "url": "https://dog.ceo/api/breeds/image/random",
+      "headers": {
+        "Authorization": "Bearer YOUR_TOKEN"
+      },
+      "body": {
+        "key": "value"
+      },
+      "status_code": 200,
+      "timestamp": "2025-11-14T00:51:46.250830"
+    },
+    {
+      "method": "GET",
+      "url": "https://ipinfo.io/106.76.175.48/geo",
+      "headers": {
+        "Authorization": "Bearer YOUR_TOKEN"
+      },
+      "body": {
+        "key": "value"
+      },
+      "status_code": 400,
+      "timestamp": "2025-11-14T00:53:05.363737"
+    },
+    {
+      "method": "GET",
+      "url": "https://ipinfo.io/161.185.160.93/geo",
+      "headers": {
+        "Authorization": "Bearer YOUR_TOKEN"
+      },
+      "body": {
+        "key": "value"
+      },
+      "status_code": 400,
+      "timestamp": "2025-11-14T00:53:24.137054"
+    },
+    {
+      "method": "GET",
+      "url": "https://official-joke-api.appspot.com/random_joke",
+      "headers": {
+        "Authorization": "Bearer YOUR_TOKEN"
+      },
+      "body": {
+        "key": "value"
+      },
+      "status_code": 400,
+      "timestamp": "2025-11-14T00:53:44.905733"
+    },
+    {
+      "method": "GET",
+      "url": "https://api.zippopotam.us/us/33162",
+      "headers": {
+        "Authorization": "Bearer YOUR_TOKEN"
+      },
+      "body": {
+        "key": "value"
+      },
+      "status_code": 200,
+      "timestamp": "2025-11-14T00:54:34.111226"
+    },
+    {
+      "method": "GET",
+      "url": "https://api.zippopotam.us/in/560048",
+      "headers": {
+        "Authorization": "Bearer YOUR_TOKEN"
+      },
+      "body": {
+        "key": "value"
+      },
+      "status_code": 200,
+      "timestamp": "2025-11-14T00:55:14.816089"
+    }
+  ],
   "settings": {
     "theme": "Dark"
+  },
+  "analytics": {
+    "GET https://dog.ceo/api/breeds/image/random": [
+      {
+        "timestamp": "2025-11-14T00:51:46.250830",
+        "status_code": 200,
+        "response_time_ms": 1243.8700199127197,
+        "response_size_bytes": 106
+      }
+    ],
+    "GET https://ipinfo.io/106.76.175.48/geo": [
+      {
+        "timestamp": "2025-11-14T00:53:05.363737",
+        "status_code": 400,
+        "response_time_ms": 605.7865619659424,
+        "response_size_bytes": 273
+      }
+    ],
+    "GET https://ipinfo.io/161.185.160.93/geo": [
+      {
+        "timestamp": "2025-11-14T00:53:24.137054",
+        "status_code": 400,
+        "response_time_ms": 593.6722755432129,
+        "response_size_bytes": 273
+      }
+    ],
+    "GET https://official-joke-api.appspot.com/random_joke": [
+      {
+        "timestamp": "2025-11-14T00:53:44.905733",
+        "status_code": 400,
+        "response_time_ms": 805.6545257568359,
+        "response_size_bytes": 1555
+      }
+    ],
+    "GET https://api.zippopotam.us/us/33162": [
+      {
+        "timestamp": "2025-11-14T00:54:34.111226",
+        "status_code": 200,
+        "response_time_ms": 391.282320022583,
+        "response_size_bytes": 212
+      }
+    ],
+    "GET https://api.zippopotam.us/in/560048": [
+      {
+        "timestamp": "2025-11-14T00:55:14.816089",
+        "status_code": 200,
+        "response_time_ms": 460.91175079345703,
+        "response_size_bytes": 214
+      }
+    ]
   }
 }
