@@ -6,7 +6,7 @@
 
 A lightweight, offline-capable API testing tool for Windows, designed with a retro-futuristic aesthetic blending 80s neon with modern glassmorphism.
 
-![App Screenshot](assets\images\Screenshot.png)
+![App Screenshot](assets/images/Screenshot.png)
 
 ---
 
